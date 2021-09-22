@@ -40,3 +40,21 @@ videoSource.addEventListener("timeupdate", () => {
 });
 
 // end of section 2 (video controls)
+
+// section 3 (pricing cards)
+
+var swiper = new Swiper(".mySwiper", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 70,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+});
+
+// end of section 3 (pricing cards)
