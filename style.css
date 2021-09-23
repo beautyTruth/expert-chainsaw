@@ -425,7 +425,7 @@ html {
 .section-3 {
   width: 100%;
   height: 100vh;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='80' height='80' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform=''%3E%3Crect width='100%25' height='100%25' fill='rgba(37, 78, 98,1)'/%3E%3Cpath d='M3 20L20 0L0 0zM20 40L37 20L40 40z' fill='rgba(240, 248, 255,1)'/%3E%3Cpath d='M0 20L17 40L20 20L0 20M20 20L23 0L40 20L20 20z' fill='rgba(0, 170, 255,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='49' height='49' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(145)'%3E%3Crect width='100%25' height='100%25' fill='rgba(37, 78, 98,1)'/%3E%3Cpath d='M-20 32l20-20l20 20l20-20l20 20l20-20l20 20v-4l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20-8l20-20l20 20l20-20l20 20l20-20l20 20v-4l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20 72l20-20l20 20l20-20l20 20l20-20l20 20v-4l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20z ' fill='rgba(240, 248, 255,1)'/%3E%3Cpath d='M0 39.5l20-20l20 20l20-20l20 20l20-20l20 20v-3l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM0-0.5l20-20l20 20l20-20l20 20l20-20l20 20v-3l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM0 79.5l20-20l20 20l20-20l20 20l20-20l20 20v- 3l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20z ' fill='rgba(0, 170, 255,1)'/%3E%3Cpath d='M-20 32l20-20v-4l-20 20zM20 32l20-20v-4l-20 20z' fill='rgba(240, 248, 255,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
   display: flex;
   align-items: center;
   padding-left: 10rem;
@@ -433,7 +433,6 @@ html {
 
 .section-heading.gilded {
   font-weight: 700;
-  color: rgb(113, 250, 255);
   text-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.9);
 }
 
@@ -593,3 +592,102 @@ html {
 }
 
 /* end of section 3 */
+
+/* section 4 */
+.section-4 {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='42.44' height='49' viewBox='0 0 69.2820323027551 80' patternUnits='userSpaceOnUse' patternTransform='rotate(28)'%3E%3Crect width='100%25' height='100%25' fill='rgba(37, 78, 98,.8)'/%3E%3Cpath d='M63.22 56.5L58.89 59L54.56 56.5L54.56 51.5L58.89 49L63.22 51.5z' stroke-linejoin='miter' fill='rgba(240, 248, 255,.2)'/%3E%3Cpath d='M38.97 70.5L34.64 73L30.31 70.5L30.31 65.5L34.64 63L38.97 65.5z' stroke-linejoin='miter' fill='rgba(240, 248, 255,.2)'/%3E%3Cpath d='M14.72 56.5L10.39 59L6.06 56.5L6.06 51.5L10.39 49L14.72 51.5z' stroke-linejoin='miter' fill='rgba(240, 248, 255,.2)'/%3E%3Cpath d='M14.72 28.5L10.39 31L6.06 28.5L6.06 23.5L10.39 21L14.72 23.5z' stroke-linejoin='miter' fill='rgba(240, 248, 255,.2)'/%3E%3Cpath d='M38.97 14.5L34.64 17L30.31 14.5L30.31 9.5L34.64 7L38.97 9.5z' stroke-linejoin='miter' fill='rgba(240, 248, 255,.2)'/%3E%3Cpath d='M63.22 28.5L58.89 31L54.56 28.5L54.56 23.5L58.89 21L63.22 23.5z' stroke-linejoin='miter' fill='rgba(240, 248, 255,.2)'/%3E%3Cpath d='M42.44 44.5L34.64 49L26.85 44.5L26.85 35.5L34.64 31L42.44 35.5z' stroke-linejoin='miter' fill='rgba(0, 170, 255,.2)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+  display: flex;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.contact-wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-details {
+  display: flex;
+  margin-bottom: 8rem;
+  position: relative;
+}
+
+.contact-details div {
+  width: 25rem;
+  text-align: center;
+  margin: 4rem;
+}
+
+.contact-details i {
+  font-size: 6rem;
+  color: rgba(0, 170, 255, 1);
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.contact-details h3 {
+  font-family: "Russo One", sans-serif;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  color: aliceblue;
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.contact-details p {
+  font-size: 1.6rem;
+  color: aliceblue;
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.contact-wrapper h1 {
+  font-size: 4rem;
+  color: #00aaff;
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.contact-now {
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-now input,
+.contact-now textarea {
+  padding: 1.5rem;
+  background-color: rgb(41, 112, 148);
+  color: aliceblue;
+  border: none;
+  margin-bottom: 2rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.contact-now textarea {
+  max-width: 100%;
+  max-height: 15rem;
+  min-height: 5.5rem;
+}
+
+.contact-now input[type="submit"] {
+  background-color: #00aaff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contact-now input[type="submit"]:hover {
+  background-color: rgb(1, 142, 212);
+}
+
+.white {
+  color: aliceblue;
+}
+
+/* end of section 4 */
