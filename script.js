@@ -58,3 +58,10 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 // end of section 3 (pricing cards)
+
+// footer script (year update)
+
+const yearDynamic = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+
+yearDynamic.textContent = currentYear;

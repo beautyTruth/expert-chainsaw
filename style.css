@@ -14,6 +14,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .section-heading {
@@ -691,3 +692,34 @@ html {
 }
 
 /* end of section 4 */
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 12rem;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='54.27' height='94' viewBox='0 0 34.64101615137755 60' patternUnits='userSpaceOnUse' patternTransform='rotate(145)'%3E%3Crect width='100%25' height='100%25' fill='rgba(37, 78, 98,1)'/%3E%3Cpath d='M38.1 38L38.1 42L31.18 38L34.64 36L34.64 44L31.18 42L34.64 40z' stroke-linejoin='miter' fill='rgba(240, 248, 255,1)'/%3E%3Cpath d='M20.78 48L20.78 52L13.86 48L17.32 46L17.32 54L13.86 52L17.32 50z' stroke-linejoin='miter' fill='rgba(240, 248, 255,1)'/%3E%3Cpath d='M3.46 38L3.46 42L-3.46 38L0 36L0 44L-3.46 42L0 40z' stroke-linejoin='miter' fill='rgba(240, 248, 255,1)'/%3E%3Cpath d='M3.46 18L3.46 22L-3.46 18L0 16L0 24L-3.46 22L0 20z' stroke-linejoin='miter' fill='rgba(240, 248, 255,1)'/%3E%3Cpath d='M20.78 8L20.78 12L13.86 8L17.32 6L17.32 14L13.86 12L17.32 10z' stroke-linejoin='miter' fill='rgba(240, 248, 255,1)'/%3E%3Cpath d='M38.1 18L38.1 22L31.18 18L34.64 16L34.64 24L31.18 22L34.64 20z' stroke-linejoin='miter' fill='rgba(240, 248, 255,1)'/%3E%3Cpath d='M34.64 43L37.24 41.5L32.04 38.5L32.04 41.5L37.24 38.5L34.64 37L34.64 40z' stroke-linejoin='miter' fill='rgba(0, 170, 255,1)'/%3E%3Cpath d='M17.32 53L19.92 51.5L14.72 48.5L14.72 51.5L19.92 48.5L17.32 47L17.32 50z' stroke-linejoin='miter' fill='rgba(0, 170, 255,1)'/%3E%3Cpath d='M0 43L2.6 41.5L-2.6 38.5L-2.6 41.5L2.6 38.5L0 37L0 40z' stroke-linejoin='miter' fill='rgba(0, 170, 255,1)'/%3E%3Cpath d='M0 23L2.6 21.5L-2.6 18.5L-2.6 21.5L2.6 18.5L0 17L0 20z' stroke-linejoin='miter' fill='rgba(0, 170, 255,1)'/%3E%3Cpath d='M17.32 13L19.92 11.5L14.72 8.5L14.72 11.5L19.92 8.5L17.32 7L17.32 10z' stroke-linejoin='miter' fill='rgba(0, 170, 255,1)'/%3E%3Cpath d='M34.64 23L37.24 21.5L32.04 18.5L32.04 21.5L37.24 18.5L34.64 17L34.64 20z' stroke-linejoin='miter' fill='rgba(0, 170, 255,1)'/%3E%3Cpath d='M24.25 26L24.25 34L10.39 26L17.32 22L17.32 38L10.39 34L17.32 30z' stroke-linejoin='miter' fill='rgba(240, 248, 255,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.footer-nav a {
+  font-family: "Russo One", sans-serif;
+  font-size: 2.5rem;
+  color: antiquewhite;
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+  margin-right: 3rem;
+  letter-spacing: 0.1rem;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #00aaff;
+}
+
+.copyright {
+  font-size: 2.5rem;
+  color: bisque;
+}
+/* end of footer */
